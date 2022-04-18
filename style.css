@@ -1,0 +1,112 @@
+html,
+body {
+  box-sizing: border-box;
+}
+body {
+  background-color: #f3efef;
+}
+.wrapper {
+}
+header {
+  border-bottom: 1px solid gray;
+  height: 5rem;
+  background: white;
+}
+.header {
+  width: 75vw;
+  margin: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.ln-logo {
+  width: 2rem;
+  height: 2rem;
+}
+.search {
+  height: 100%;
+  border-right: 1px solid gray;
+  border-left: 1px solid gray;
+  margin-left: 1rem;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  border: none;
+  outline: none;
+}
+
+.search-input {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  border-radius: 15rem;
+  padding: 2px 8px;
+}
+.navbar {
+  border-right: 1px solid gray;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0 1rem;
+  flex-grow: 1;
+}
+.navbar span {
+  padding: 0 1rem;
+}
+.navbar span:last-child {
+  color: red;
+}
+.nav-icons {
+  display: flex;
+  padding: 0 1rem;
+  border-right: 1px solid gray;
+  height: 100%;
+}
+.nav-icons img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: auto;
+  padding: 0 0.5rem;
+}
+.avatar {
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1.5rem;
+  border-radius: 50%;
+}
+.top-nav {
+  border-bottom: 1px solid gray;
+  background: white;
+}
+.topNav {
+  width: 75vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.topNav span {
+  display: block;
+  padding: 1rem 0;
+  padding-right: 4rem;
+}
+.main-body {
+  width: 75vw;
+  margin: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 16rem 1fr 16rem;
+  gap: 2rem;
+  height: 100vh;
+}
+.content {
+  background-color: white;
+}
+aside.left {
+  background-color: blue;
+}
+aside.right {
+  background-color: rebeccapurple;
+}
