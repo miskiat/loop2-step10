@@ -105,8 +105,166 @@ header {
   background-color: white;
 }
 aside.left {
-  background-color: blue;
+  background-color: white;
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-aside.right {
+.name {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+.founder {
+  font-weight: lighter;
+  color: rgb(56, 54, 54);
+  margin-bottom: 0.5rem;
+}
+.seattle {
+  color: grey;
+  margin-bottom: 1rem;
+}
+.billgate {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+.follow {
+  height: 2rem;
+  width: 8rem;
+  background-color: rgb(92, 163, 245);
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.connect {
+  height: 2rem;
+  width: 8rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1rem;
+  color: rgb(63, 159, 248);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  border: 1px solid rgb(63, 159, 248);
+}
+.socials {
+  width: 100%;
+  display: grid;
+  border-bottom: 1px solid gray;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid gray;
+  margin-top: 2rem;
+}
+.following {
+  border-right: 1px solid gray;
+}
+.conn {
+  color: grey;
+}
+.following,
+.follower {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.75rem 0;
+}
+.foll {
+  color: grey;
+}
+
+.linkedIn {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 1.5rem 0;
+  color: grey;
+}
+.linIn {
+  padding-left: 1rem;
+}
+.link {
+  width: 1rem;
+  height: 1rem;
+}
+.global-bill {
+  padding-left: 1rem;
+}
+.global {
+  width: 1rem;
+  height: 1rem;
+}
+.export {
+  color: grey;
+  padding: 1.5rem 0;
+}
+
+.aside.right {
   background-color: rebeccapurple;
+}
+
+.avatarr {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.avatar2 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.avatar3 {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+.influencer {
+  color: grey;
+  padding-top: 2rem;
+}
+.steve {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  margin-top: 1rem;
+}
+.company {
+  color: grey;
+  padding-top: 0.3rem;
+}
+.CEO {
+  display: flex;
+  padding-top: 2rem;
+}
+.profile {
+  margin-left: 1rem;
+}
+.jobs {
+  font-size: larger;
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.apple {
+  color: grey;
+}
+.image {
+  display: flex;
+  justify-content: center;
+}
+.people {
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.rightarrow {
+  margin-top: 3rem;
+}
+.leftarrow {
+  margin-top: 3rem;
 }
