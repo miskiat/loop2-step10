@@ -264,7 +264,49 @@ aside.left {
 }
 .rightarrow {
   margin-top: 3rem;
+  filter: invert(1);
 }
 .leftarrow {
   margin-top: 3rem;
+}
+
+.topper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid gray;
+}
+.arrow {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  background-color: indigo;
+}
+.information {
+  height: 15rem;
+  padding: 2rem;
+  width: 10rem;
+  display: flex;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+.article {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feb {
+  color: grey;
+}
+.second {
+  border-bottom: 1px solid gray;
 }
